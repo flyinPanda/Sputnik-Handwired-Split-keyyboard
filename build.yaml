@@ -21,5 +21,8 @@
 include:
   - board: nice_nano/nrf52840
     shield: corne_hw_left
+    cmake-args: -DSHIELD_ROOT="${GITHUB_WORKSPACE}"
   - board: nice_nano/nrf52840
     shield: corne_hw_right
+    cmake-args: -DSHIELD_ROOT="${GITHUB_WORKSPACE}"
+    
